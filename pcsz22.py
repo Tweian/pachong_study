@@ -17,7 +17,7 @@ try:
     print(html)
 except urllib.error.URLError as e:
     print(e.reason,sep='\n')
-print('--------------------')
+print('--------------------------------------')
 
 try:
     response = urlopen('https://cuiqingcai.com/404')

@@ -17,4 +17,5 @@ while True:
     sum = a + b + c
     if sum == 662054:
         print(a, b, c, sep='，')
+        print("完成凑数")
         break
